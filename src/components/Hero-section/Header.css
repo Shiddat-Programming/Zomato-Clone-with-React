@@ -1,0 +1,35 @@
+
+a{
+    text-decoration: none;
+}
+
+
+
+.headers{
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 20px;
+  
+   
+}
+
+.left_header{
+    flex: 1;
+    /* border: 2px solid black; */
+    margin-left: 50px;
+}
+
+
+.left_header > .testing{
+    color: orange;
+}
+
+
+.right_header{
+   
+    flex: 1;
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 30px;
+}
+

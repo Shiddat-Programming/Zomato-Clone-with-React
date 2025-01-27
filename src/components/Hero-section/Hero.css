@@ -1,0 +1,70 @@
+.hero_bg{
+    border: 2px solid red;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/036/804/331/non_2x/ai-generated-assorted-indian-food-on-dark-wooden-background-free-photo.jpg');
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.hero_section{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.hero_logo > img{
+    width: 250px;
+}
+
+.hero_search{
+    /* border: 2px solid yellow; */
+    width: 50vw;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.search_left{
+    /* border: 1px solid red; */
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+
+}
+
+
+.search_left > i{
+    color: orange;
+}
+.search_left > input{
+    /* border: 2px solid blue; */
+    padding: 5px;
+    outline: none;
+    outline-width: none;
+    border: none;
+}
+
+
+
+.search_right{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.search_right >  input{
+    padding: 5px;
+    outline: none;
+    outline-width: none;
+    border: none;
+    /* border: 1px solid red; */
+    width: 90%;
+
+
+}
