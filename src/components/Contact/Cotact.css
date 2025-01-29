@@ -1,0 +1,27 @@
+
+
+
+.contacts{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid red;
+    display: flex;
+}
+
+
+.left_contact{
+    flex: 1;
+    border: 2px solid green;
+    display: grid;
+    place-items: center;
+
+
+}
+
+
+.right_contact{
+    flex: 1;
+   
+
+    
+}
